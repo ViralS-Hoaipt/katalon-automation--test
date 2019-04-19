@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check error message when leaving blank Ip address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19fc829c-1dfc-441b-abde-75b9e654482e</testCaseGuid>
+</TestCaseEntity>

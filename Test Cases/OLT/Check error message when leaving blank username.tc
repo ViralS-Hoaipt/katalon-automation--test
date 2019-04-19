@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check error message when leaving blank username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6fc0e30-21e1-44c4-8a04-ef890ebe34a7</testCaseGuid>
+</TestCaseEntity>

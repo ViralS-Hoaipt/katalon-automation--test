@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check error message with positive case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2856515a-26f6-489e-9734-c2c071a20fed</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b36dc835-5328-4381-af84-3ee8daf48eab</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>872a570d-8016-43fa-8583-8e22f7a3c77a</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71b6f322-a2a8-4761-a5b6-8c9ac0fa3b53</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e08f602f-5cd3-441a-ac55-d6aa056a48af</id>
+      <masked>false</masked>
+      <name>variable_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c277338c-491b-4378-a0ee-1a20ab0e91d8</id>
+      <masked>false</masked>
+      <name>variable_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aace5898-8b5d-49f2-ad7c-ad3b7382f6d0</id>
+      <masked>false</masked>
+      <name>variable_4</name>
+   </variable>
+</TestCaseEntity>

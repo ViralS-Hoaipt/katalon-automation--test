@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check error message when leaving blank all field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c911ee0f-fb0b-471b-8231-4dd2a985448d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84087830-3f80-444d-9045-c2341af7740b</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

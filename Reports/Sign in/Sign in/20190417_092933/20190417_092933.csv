@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign in,Chrome 73.0.3683.103,,2019-04-17 09:29:38,2019-04-17 09:30:23,44.514s,PASSED
+,,,,,,
+"Test Cases/Sign in/Sign in_ valid email, pw",Chrome 73.0.3683.103,,2019-04-17 09:29:39,2019-04-17 09:29:54,15.684s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 09:29:40,2019-04-17 09:29:46,6.566s,PASSED
+"navigateToUrl(""http://automation.viralsoft.vn/admin/login"")",Chrome 73.0.3683.103,,2019-04-17 09:29:46,2019-04-17 09:29:49,3.007s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), ""admin@automation.com"")",Chrome 73.0.3683.103,,2019-04-17 09:29:49,2019-04-17 09:29:50,0.871s,PASSED
+"setEncryptedText(findTestObject(""Page_Login/input_password""), ""CSt51UwWECc="")",Chrome 73.0.3683.103,,2019-04-17 09:29:50,2019-04-17 09:29:51,0.402s,PASSED
+"click(findTestObject(""Page_Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 09:29:51,2019-04-17 09:29:54,3.129s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-17 09:29:54,2019-04-17 09:29:54,0.735s,PASSED
+,,,,,,
+Test Cases/Sign in/Sign in_ Verify error message when filling incorrect password,Chrome 73.0.3683.103,,2019-04-17 09:29:54,2019-04-17 09:30:06,11.868s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 09:29:55,2019-04-17 09:29:57,2.668s,PASSED
+"navigateToUrl(""http://automation.viralsoft.vn/admin/login"")",Chrome 73.0.3683.103,,2019-04-17 09:29:57,2019-04-17 09:29:59,1.932s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-17 09:29:59,2019-04-17 09:30:01,2.040s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), ""admin@automation.com"")",Chrome 73.0.3683.103,,2019-04-17 09:30:01,2019-04-17 09:30:02,0.316s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), ""1234567"")",Chrome 73.0.3683.103,,2019-04-17 09:30:02,2019-04-17 09:30:02,0.213s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-17 09:30:02,2019-04-17 09:30:04,2.003s,PASSED
+"click(findTestObject(""Page_Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 09:30:04,2019-04-17 09:30:05,0.983s,PASSED
+"Errormessage = getText(findTestObject(""Page_Login/Error message""))",Chrome 73.0.3683.103,Verify error message when filling invalid email,2019-04-17 09:30:05,2019-04-17 09:30:05,0.155s,PASSED
+"verifyMatch(Errormessage, ""These credentials do not match our records."", false)",Chrome 73.0.3683.103,,2019-04-17 09:30:05,2019-04-17 09:30:05,0.022s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-17 09:30:05,2019-04-17 09:30:06,1.189s,PASSED
+,,,,,,
+Test Cases/Sign in/Sign in_Invalid email,Chrome 73.0.3683.103,,2019-04-17 09:30:06,2019-04-17 09:30:23,16.162s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 09:30:07,2019-04-17 09:30:09,2.331s,PASSED
+"navigateToUrl(""http://automation.viralsoft.vn/admin/login"")",Chrome 73.0.3683.103,,2019-04-17 09:30:09,2019-04-17 09:30:18,8.611s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-17 09:30:18,2019-04-17 09:30:20,2.004s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), ""admin123@automation.com"")",Chrome 73.0.3683.103,,2019-04-17 09:30:20,2019-04-17 09:30:20,0.382s,PASSED
+"setEncryptedText(findTestObject(""Page_Login/input_password""), ""CSt51UwWECc="")",Chrome 73.0.3683.103,,2019-04-17 09:30:20,2019-04-17 09:30:20,0.167s,PASSED
+"click(findTestObject(""Page_Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 09:30:20,2019-04-17 09:30:22,1.500s,PASSED
+"Errormessage = getText(findTestObject(""Page_Login/Error message""))",Chrome 73.0.3683.103,Verify error message when filling invalid email,2019-04-17 09:30:22,2019-04-17 09:30:22,0.120s,PASSED
+"verifyMatch(Errormessage, ""These credentials do not match our records."", false)",Chrome 73.0.3683.103,,2019-04-17 09:30:22,2019-04-17 09:30:22,0.002s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-17 09:30:22,2019-04-17 09:30:23,0.764s,PASSED

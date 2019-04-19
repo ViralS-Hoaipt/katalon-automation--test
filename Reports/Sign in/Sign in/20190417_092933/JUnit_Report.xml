@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign in" time="44" tests="3" failures="0" errors="0">
+   <testsuite name="Sign in" tests="3" failures="0" errors="0" time="44" timestamp="2019-04-17 09:29:38" hostname="hoaipt - TUANDT-DELL" id="Test Suites/Sign in/Sign in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hoaipt\\Katalon Studio\\Project_Automation\\Reports\\Sign in\\Sign in\\20190417_092933"/>
+         <property name="logFiles" value="C:\\Users\\hoaipt\\Katalon Studio\\Project_Automation\\Reports\\Sign in\\Sign in\\20190417_092933\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hoaipt - TUANDT-DELL"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.37"/>
+         <property name="sessionId" value="ef6ceb7e08ceaf2bda7a3b9d20dc5dbc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Sign in/Sign in_ valid email, pw" classname="Test Cases/Sign in/Sign in_ valid email, pw" status="PASSED">
+         <system-out><![CDATA[2019-04-17 09:29:39 - [TEST_CASE][PASSED] - Test Cases/Sign in/Sign in_ valid email, pw: Test Cases/Sign in/Sign in_ valid email, pw
+
+2019-04-17 09:29:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 09:29:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 09:29:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 09:29:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 09:29:46 - [TEST_STEP][PASSED] - navigateToUrl("http://automation.viralsoft.vn/admin/login"): Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:29:49 - [MESSAGE][PASSED] - Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), "admin@automation.com"): Text 'admin@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:29:50 - [MESSAGE][PASSED] - Text 'admin@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:29:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login/input_password"), "CSt51UwWECc="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:29:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:29:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 09:29:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/Sign in_ Verify error message when filling incorrect password" classname="Test Cases/Sign in/Sign in_ Verify error message when filling incorrect password" status="PASSED">
+         <system-out><![CDATA[2019-04-17 09:29:54 - [TEST_CASE][PASSED] - Test Cases/Sign in/Sign in_ Verify error message when filling incorrect password: Test Cases/Sign in/Sign in_ Verify error message when filling incorrect password
+
+2019-04-17 09:29:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 09:29:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 09:29:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 09:29:57 - [TEST_STEP][PASSED] - navigateToUrl("http://automation.viralsoft.vn/admin/login"): Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:29:59 - [MESSAGE][PASSED] - Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:29:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 09:30:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 09:30:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), "admin@automation.com"): Text 'admin@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:30:02 - [MESSAGE][PASSED] - Text 'admin@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "1234567"): Text '1234567' is set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:30:02 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:30:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 09:30:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 09:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:30:05 - [TEST_STEP][PASSED] - Errormessage = getText(findTestObject("Page_Login/Error message")): Text of object 'Object Repository/Page_Login/Error message' is: 'These credentials do not match our records.'
+
+2019-04-17 09:30:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/Error message' is: 'These credentials do not match our records.'
+
+2019-04-17 09:30:05 - [TEST_STEP][PASSED] - verifyMatch(Errormessage, "These credentials do not match our records.", false): Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+2019-04-17 09:30:05 - [MESSAGE][PASSED] - Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+2019-04-17 09:30:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 09:30:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/Sign in_Invalid email" classname="Test Cases/Sign in/Sign in_Invalid email" status="PASSED">
+         <system-out><![CDATA[2019-04-17 09:30:06 - [TEST_CASE][PASSED] - Test Cases/Sign in/Sign in_Invalid email: Test Cases/Sign in/Sign in_Invalid email
+
+2019-04-17 09:30:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 09:30:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 09:30:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 09:30:09 - [TEST_STEP][PASSED] - navigateToUrl("http://automation.viralsoft.vn/admin/login"): Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:30:18 - [MESSAGE][PASSED] - Navigate to 'http://automation.viralsoft.vn/admin/login' successfully
+
+2019-04-17 09:30:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 09:30:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 09:30:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), "admin123@automation.com"): Text 'admin123@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:30:20 - [MESSAGE][PASSED] - Text 'admin123@automation.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2019-04-17 09:30:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login/input_password"), "CSt51UwWECc="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:30:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2019-04-17 09:30:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2019-04-17 09:30:22 - [TEST_STEP][PASSED] - Errormessage = getText(findTestObject("Page_Login/Error message")): Text of object 'Object Repository/Page_Login/Error message' is: 'These credentials do not match our records.'
+
+2019-04-17 09:30:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/Error message' is: 'These credentials do not match our records.'
+
+2019-04-17 09:30:22 - [TEST_STEP][PASSED] - verifyMatch(Errormessage, "These credentials do not match our records.", false): Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+2019-04-17 09:30:22 - [MESSAGE][PASSED] - Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+2019-04-17 09:30:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 09:30:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 09:29:38 - [TEST_SUITE][PASSED] - Sign in: Test Cases/Sign in/Sign in_Invalid email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

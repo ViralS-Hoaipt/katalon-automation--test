@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check that creating OLT successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>724a08dd-d929-4ab6-a62e-1cfdc4ef6f18</testCaseGuid>
+</TestCaseEntity>
